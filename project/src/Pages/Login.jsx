@@ -43,7 +43,7 @@ export const LoginForm = ({ title, fields }) => {
           {fields.map((field, index) => (
             <InputField key={index} type={field.type} placeholder={field.placeholder} />
           ))}
-          <Button text="Register" onClick={() => navigate("/")} />
+          <Button text={"Register"} className="text-white" onClick={() => navigate("/")} />
         </div>
       </div>
     </motion.div>
@@ -63,8 +63,8 @@ export const Login = () => {
       <div className="bg-white shadow-md rounded-lg p-8 w-96 text-center">
         <h1 className="text-3xl font-semibold mb-6 text-gray-800">Register</h1>
         <div className="flex flex-col gap-4">
-          <Button text="User Register" onClick={() => navigate("/user")} />
-          <Button text="Volunteer Register" onClick={() => navigate("/volunteer")} />
+          <Button text={"User Register"} onClick={() => navigate("user/register")} />
+          <Button text={"Volunteer Register"} onClick={() => navigate("/volunteer")} />
         </div>
       </div>
     </motion.div>

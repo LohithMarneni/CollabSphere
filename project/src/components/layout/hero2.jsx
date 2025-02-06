@@ -29,7 +29,7 @@ export const Hero2 = () => (
               Jump on a call <PhoneCall className="w-4 h-4" />
             </Button>
             </Link>
-            <Button size="lg" className="gap-4">
+            <Button size="lg" className="gap-4"   onClick={() => navigate("/")} >
               Sign up here <MoveRight className="w-4 h-4" />
             </Button>
           </div>

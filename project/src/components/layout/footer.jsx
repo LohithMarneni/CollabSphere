@@ -69,7 +69,7 @@ export const Footer1 = () => {
             <div className="flex gap-20 flex-row">
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <p>Your Gated Community</p>
-                <p>Vijayawad</p>
+                <p>Vijayawada</p>
               </div>
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <a href="/">Terms of service</a>

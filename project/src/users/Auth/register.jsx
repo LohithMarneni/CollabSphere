@@ -61,7 +61,8 @@ export const UserRegister = () => {
           <InputField id="password" name="password" type="password" placeholder="Enter your password" value={formData.password} onChange={handleChange} />
           <InputField id="phoneNumber" name="phoneNumber" type="tel" placeholder="Enter your Phone Number" value={formData.phoneNumber} onChange={handleChange} />
           <InputField id="flatNo" name="flatNo" type="text" placeholder="Enter your FLAT NUMBER" value={formData.flatNo} onChange={handleChange} />
-          <Button text="Register" />
+          <Button  >Register</Button>
+          
         </form>
       </div>
     </motion.div>

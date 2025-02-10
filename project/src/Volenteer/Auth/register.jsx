@@ -60,7 +60,7 @@ export const VolunteerRegister = () => {
           <InputField id="password" name="password" type="password" placeholder="Enter your password" value={formData.password} onChange={handleChange} />
           <InputField id="phoneNumber" name="phoneNumber" type="tel" placeholder="Enter your Phone Number" value={formData.phoneNumber} onChange={handleChange} />
           <InputField id="aadharNumber" name="aadharNumber" type="number" placeholder="Enter your Aadhar Number" value={formData.aadharNumber} onChange={handleChange} />
-          <Button text="Register" />
+          <Button>Register</Button>
         </form>
       </div>
     </motion.div>

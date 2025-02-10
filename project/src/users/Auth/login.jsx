@@ -56,7 +56,7 @@ export const UserLogin = () => {
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <InputField id="email" name="email" type="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} />
           <InputField id="password" name="password" type="password" placeholder="Enter your password" value={formData.password} onChange={handleChange} />
-          <Button text="Login" className="text-white"/>
+          <Button  >Login</Button>
         </form>
       </div>
     </motion.div>

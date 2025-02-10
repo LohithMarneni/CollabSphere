@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Menu, MoveRight, X } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { ProfileDropdown } from "../ui/profile-dropdown";
 // import Link from "next/link";
 
@@ -101,7 +101,10 @@ export const Header1 = () => {
   
       {/* Logo */}
       <div className="flex justify-center">
-        <p className="font-semibold text-xl">Hi</p>
+        <p className="font-bold text-[2rem] ">C</p>
+        <p className="font-bold text-[2rem] ">ollab</p>
+        <p className="font-bold text-[2rem]">S</p>
+        <p className="font-bold text-[2rem]">phere</p>
       </div>
   
       {/* Right Buttons */}
@@ -115,7 +118,7 @@ export const Header1 = () => {
           Sign in
         </Button>
         </Link>
-        <Button className="text-lg">Get started</Button>
+        <Button className="text-lg"onClick={() => Navigate("/user/register")}>Get started</Button>
         <ProfileDropdown />
       </div>
     </div>
